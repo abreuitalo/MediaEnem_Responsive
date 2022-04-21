@@ -7,7 +7,7 @@ function verificar() {
   let boxRedacao = document.getElementById('reda')
   let res = document.querySelector('div.txtnota')
 
-  //2º passo: realizar a conversão de String para Number
+  //2º passo: realizar a conversão de String para Number.
   let linguagens = Number(boxLing.value)
   let humanas = Number(boxHuma.value)
   let natureza = Number(boxNat.value)
